@@ -40,13 +40,11 @@ Class CBRwidget extends CWidget {
  
             foreach($this->curs as $curs) {
 		
-		  echo " <br>$curs ".$this->listcurs[$curs];
-			
+		echo " <br>$curs ".$this->listcurs[$curs];
+		  
 	    }
         } 
-      
     }
-
 }
 
 ?>
